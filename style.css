@@ -1,0 +1,36 @@
+body {
+    display: flex; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    justify-content: center; /* Centers content horizontally */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Removes default margin */
+    background-color: black; /* Sets background color to black */
+    overflow: hidden; /* Prevents scrollbars from appearing */
+    background-image: url('free-photo-animation-peaceful-landscape-village-4k-desktop-wallpaper-background_649024-45263.jpg'); /* Sets the background image */
+    background-size: cover; /* Ensures the background image covers the entire screen */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+.scene {
+    position: relative; /* Sets the scene as the reference point for absolutely positioned child elements */
+    width: 100%; /* Takes full width of the container */
+    height: 300px; /* Sets a fixed height for the scene */
+    max-width: 800px; /* Limits the maximum width of the scene */
+    /* background-image: url('./background5.jpg'); */
+    /* Uncomment these lines if you want to add a background image to the scene */
+    /* background-size: cover; */
+    /* background-position: left, right; */
+    /* background-repeat: no-repeat; */
+}
+
+
+.girl_with_dog {
+    position: fixed; /* Keeps the girl in a fixed position relative to the viewport */
+    bottom: 200px; /* Positions her vertically higher than other elements */
+    right: 550px; /* Positions her horizontally on the right side */
+    width: 300px; /* Sets width for a visible size */
+    height: 300px; /* Matches height to width for proportional size */
+    background-image: url('./output-onlinegiftools.gif'); /* Sets the background image for the girl */
+    background-size: contain; /* Fits the image within the container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}

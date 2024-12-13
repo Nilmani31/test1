@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures responsive design for different screen sizes -->
+    <title>peacfull walk with my love</title> <!-- Page title that appears in the browser tab -->
+    <link rel="stylesheet" href="style.css"> <!-- Links to the external CSS file (style.css) for styling -->
+</head>
+<body>
+    <audio autoplay loop>
+        <source src="roa-music-walk-around(chosic.com)-[AudioTrimmer.com].mp3" type="audio/mpeg"> <!-- Link to the audio file -->
+        <!-- Fallback message for browsers that do not support the audio element -->
+        <!-- Users can enable sound from their browser's settings if it's disabled -->
+    </audio>
+
+    <div class="scene">
+        <!-- Elements inside the scene go here -->
+         
+         <div class="girl_with_dog"></div><!--girl and dog elements-->
+    </div>
+
+</body>
+</html>
